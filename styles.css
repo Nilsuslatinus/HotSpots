@@ -1,0 +1,114 @@
+html{
+  background:linear-gradient(#f3cb4a, #790f0c, black);
+  scrollbar-color: red black;
+}
+
+.icon{
+  max-width: 202;
+  float:right;
+  display: inline-block;
+  margin:0;
+  padding:0;
+  position: top;
+
+}
+
+}
+h1{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 5rem;
+  display: inline-block;
+  margin-top:0;
+  margin-bottom:0;
+  padding:0;
+}
+
+
+
+h2{
+  text-align: center;
+  font-family: ArHelvetica;
+  font-size: 2rem;
+  margin: top: 0;
+}
+
+
+
+#image, .image_frame{
+  max-width: 100%;
+  max-height: 50%;
+  display: block;
+  margin:  auto;
+  color: white;
+}
+
+
+
+.img-caption{
+  text-align: center;
+  font-size: 25;
+  padding: 0 0 30px;
+  color: #f3cb4a
+}
+
+
+
+.header{
+  position: sticky;
+  width: 100%;
+  height: auto;
+  top: 0;
+  background: linear-gradient(#eec347,#e3b342);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 3rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: #000000;
+}
+
+
+
+.additional_info{
+  color: #f3cb4a;
+  padding: 0 30
+}
+
+
+
+p{
+  font-size: 2rem;
+  font-family:;
+  text-align: center;
+}
+
+audio{
+  background: red;
+  width: auto;
+  height: 40px 
+}
+
+.lists{
+  text-align: left;
+  display: inline-block;
+  font-size: 60px;
+}
+
+.list{
+  text-align: center
+}
+
+#tribute-link{
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+
+footer{
+  color: #eec347;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
