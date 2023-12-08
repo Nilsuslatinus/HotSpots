@@ -3,14 +3,15 @@ html{
   scrollbar-color: red black;
 }
 
-.icon{
-  max-width: 202;
-  float:right;
-  display: inline-block;
-  margin:0;
-  padding:0;
-  position: top;
 
+header{
+  position: relative;
+}
+
+
+
+.icon{
+  position: absolute;
 }
 
 }
