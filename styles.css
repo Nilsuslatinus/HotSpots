@@ -7,6 +7,17 @@ html{
 header{
   display: flex;
   align-items: center;
+  position: sticky;
+  width: 100%;
+  height: auto;
+  top: 0;
+  background: linear-gradient(#eec347,#e3b342);
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 3rem;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: #000000;
 }
 
 
