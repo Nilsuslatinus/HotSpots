@@ -5,13 +5,14 @@ html{
 
 
 header{
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 
 
 .icon{
-  position: absolute;
+  margin-left: auto;
 }
 
 }
