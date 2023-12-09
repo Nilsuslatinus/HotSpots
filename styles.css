@@ -8,7 +8,7 @@ header{
   display: flex;
   align-items: center;
   position: sticky;
-  width: 100%;
+  width: 100vw;
   height: auto;
   max-height: 200px;
   top: 0;
@@ -36,6 +36,8 @@ header{
   margin-top:0;
   margin-bottom:0;
   padding:0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 
@@ -44,7 +46,7 @@ h2{
   text-align: center;
   font-family: ArHelvetica;
   font-size: 2rem;
-  margin: top: 0;
+  margin-top: 0;
 }
 
 
@@ -63,7 +65,7 @@ h2{
   text-align: center;
   font-size: 25;
   padding: 0 0 30px;
-  color: #f3cb4a
+  color: #f3cb4a;
 }
 
 
@@ -74,7 +76,7 @@ h2{
 
 .additional_info{
   color: #f3cb4a;
-  padding: 0 30
+  padding: 0 30;
 }
 
 
@@ -114,4 +116,19 @@ a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .icon {
+    margin-left: 10px;
+  }
 }
